@@ -27,9 +27,10 @@ def generate_code():
     """
     ret = ""
     for i in range(6):
-        num = random.randint(0,9)
-        s = str(random.choice([num,]))
+        num = random.randint(0, 9)
+        s = str(random.choice([num, ]))
         ret += s
     return ret
+
 
 

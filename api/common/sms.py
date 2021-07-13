@@ -51,6 +51,5 @@ def send_sms(receiver, param, sender=sender, template_id=TEMPLATE_ID, signature=
 
 if __name__ == '__main__':
     receiver = "15050480107"
-    # param = '["LOL","压缩","疾风剑豪","2020-10-20","欢迎来到召唤师峡谷"]'
     param = '["错误","devops","测试lucianlu","2020-10-19","磁盘空间不足的房价肯定沙发考虑实际的反馈"]'
     print(send_sms(receiver, param))

@@ -1,12 +1,8 @@
-from flask import Flask
+from api import create_app
+import sys
 
-app = Flask(__name__)
-
-
-@app.route('/')
-def hello_world():
-    return 'Hello World!'
-
-
+# environment = sys.argv[1] if len(sys.argv) == 2 else 'dev'
+# print(environment)
+app = create_app('dev')
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=5000)
