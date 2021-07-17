@@ -10,7 +10,7 @@ APP_KEY = "8lVq29N9w77VGT4DLq5I1L3qsKr6"  # APP_Key
 APP_SECRET = "qo063Sdy740185A1P77fmk03VfuF"  # APP_Secret
 sender = "8820101625583"  # 国内短信签名通道号或国际/港澳台短信通道号
 TEMPLATE_ID = ""  # 模板ID
-signature = "DEVOPS"  # 签名名称
+signature = "Kepler"  # 签名名称
 
 
 def buildWSSEHeader(appKey=APP_KEY, appSecret=APP_SECRET):
